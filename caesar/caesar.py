@@ -29,8 +29,8 @@ def encrypt_caesars(key, message):
             letter_index = (alphabet_index + key) % len(alphabet)
 
             #### EDGE CASES SPECIFIC FOR GIVEN FILES IN EXERCICE ####
-            if letter_index == 1:
-                letter_index = 0
+            #if letter_index == 1:
+            #    letter_index = 0
             #### EDGE CASES SPECIFIC FOR GIVEN FILES IN EXERCICE ####
 
             result += alphabet[letter_index]
@@ -52,11 +52,11 @@ def decrypt_caesar(key, message):
             alphabet_index = alphabet.find(character)
 
             #### EDGE CASES SPECIFIC FOR GIVEN FILES IN EXERCICE ####
-            if alphabet_index == 1:
-                alphabet_index = 2
-
-            if alphabet_index == 0:
-                alphabet_index = 1
+            #if alphabet_index == 1:
+            #    alphabet_index = 2
+            #
+            #if alphabet_index == 0:
+            #    alphabet_index = 1
             #### EDGE CASES SPECIFIC FOR GIVEN FILES IN EXERCICE ####
 
             # Decrypted letter = (Unkown letter - key) modula (length of alphabet)
@@ -71,8 +71,8 @@ def decrypt_caesar(key, message):
             #print('character: ' + character + ' ['+str(alphabet_index)+']     result: ' + alphabet[letter_index]+ ' ['+str(letter_index)+']')
 
         #### EDGE CASES SPECIFIC FOR GIVEN FILES IN EXERCICE ####
-        elif character == ' ':
-            result += 'w'
+        #elif character == ' ':
+        #    result += 'w'
         #### EDGE CASES SPECIFIC FOR GIVEN FILES IN EXERCICE ####
 
         else:
