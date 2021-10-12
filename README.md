@@ -23,4 +23,3 @@ Example:
 ```
 $ Python3 caesar/caesar.py 7 caesar/ciphertext-shift-7.txt -d
 ```
-# computas-interview
