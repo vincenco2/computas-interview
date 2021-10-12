@@ -115,7 +115,7 @@ if __name__ == "__main__":
         result = decrypt_caesar(key, message)
 
     # Writes to file
-    result_file = open('result.txt', 'w')
+    result_file = open('caesar/result.txt', 'w')
     result_file.write(result)
     result_file.close()
     print(result)
