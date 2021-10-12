@@ -1,7 +1,11 @@
-#README
+# README
 
 To **encrypt** a file write:
-> $ Python3 caesar.py <cipher key> <filename.txt> 
+```
+$ Python3 caesar.py <cipher key> <filename.txt> 
+
+´´´
+
 
 Example:
 > $ Python3 caesar.py 7 plaintext.txt
